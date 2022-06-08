@@ -16,3 +16,6 @@ Role - a class that defines the business role of a node
 
 to start a vagrant file, run vagrant up
 
+puppet code can be packaged into modules and shared in puppet forge
+
+to write your own modules,you can put them into a directory called site in the root of control repo
