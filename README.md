@@ -19,3 +19,12 @@ to start a vagrant file, run vagrant up
 puppet code can be packaged into modules and shared in puppet forge
 
 to write your own modules,you can put them into a directory called site in the root of control repo
+
+Facter
+This is the tool that puppet uses to gather information about nodes on what needs to be done on them
+
+Facter runs at the begining of a puppet run and gathers all the facts to be submitted to the master. Then the master uses those data and other data to generate a catalogue 
+that will be applied to that node.
+
+Module
+
